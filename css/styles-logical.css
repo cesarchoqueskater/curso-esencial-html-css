@@ -115,6 +115,8 @@ p {
 .section-content img {
     margin-block-start: 40px;
     display: block;
+    /* max-width: 100%; */
+    max-inline-size: 100%;
 }
 
 .section-content h3 {
@@ -142,4 +144,19 @@ blockquote {
 
 .main hr {
     display: none;
+}
+
+.main {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    /* border: 1px solid yellowgreen; */
+    inline-size: 902px;
+    /* block-size: 100px; */
+    margin: auto;
+}
+
+.pain-content {
+    /* border: 1px solid blue; */
 }
