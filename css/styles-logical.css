@@ -218,6 +218,7 @@ blockquote p {
 }
 
 .form input[type="submit"] {
+    -webkit-appearance: none;
     background: #157EFB;
     border: none;
 }
