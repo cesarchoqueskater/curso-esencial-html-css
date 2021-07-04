@@ -3,6 +3,7 @@
     --white30: white;
     --white20: #A5A3A5;
     --white10: #3A3539;
+    --black: #000000;
 }
 
 body {
@@ -19,6 +20,7 @@ a {
 
 .header {
     /* position: sticky; */
+    margin-block-start: 0;
 }
 
 .header-content {
@@ -89,6 +91,27 @@ pre {
 
 p {
     color: var(--white20);
+}
+
+.link-variantes {
+    margin-block-end: 104px;
+}
+
+.link-variantes ul {
+    list-style: none;
+    padding-inline-start: 8px;
+}
+
+.link-variantes ul li a {
+    padding: 8px;
+}
+
+.link-variantes ul a.active {
+    background: var(--black);
+    color: var(--white30);
+    border-radius: 4px;
+    padding-block: 8px;
+    padding-inline-end: 100px;
 }
 
 .hero {
