@@ -321,6 +321,7 @@ blockquote span::before {
     position: absolute;
     top: 0;
     left: 218px;
+    cursor: pointer;
 }
 
 footer {
@@ -330,22 +331,26 @@ footer {
 .footer-content {
     font-style: 32px;
     text-align: center;
-    color: var(--white30);
     padding-top: 48px;
-    padding-bottom: 51px;
+    padding-bottom: 61px;
 }
 
 .footer-content p {
+    color: var(--white30);
     margin-top: 0;
     margin-bottom: 19px;
 }
 
-.footer-content span img:first-of-type {
+.footer-content span svg:first-of-type {
     margin-left: 0;
 }
 
-.footer-content span img {
+.footer-content span svg {
     margin-left: 22px;
+}
+
+.footer-content span svg path {
+    fill: var(--white30);
 }
 
 @media screen and (min-width:1366px) {
@@ -354,7 +359,7 @@ footer {
     }
     .header {
         position: sticky;
-        top: 0;
+        /* top: 0; */
         top: -45px;
     }
     .header-content {
@@ -387,7 +392,7 @@ footer {
         background: white;
     }
     .footer-content {
-        padding-bottom: 61px;
+        padding-bottom: 51px;
     }
     .form input {
         display: inline-block;
