@@ -230,8 +230,12 @@ blockquote p {
     display: inline-block;
     inline-size: 15px;
     block-size: 15px;
-    background: white;
+    background: rgba(66, 66, 66, 0.2);
     border-radius: 50%;
+}
+
+.slider-bullet:first-of-type {
+    background: white;
 }
 
 .form input {

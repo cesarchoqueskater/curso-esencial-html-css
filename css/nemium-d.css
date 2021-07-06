@@ -270,8 +270,12 @@ blockquote p span::before {
     display: inline-block;
     inline-size: 15px;
     block-size: 15px;
-    background: white;
+    background: rgba(142, 45, 226, 0.5);
     border-radius: 50%;
+}
+
+.slider-bullet:first-of-type {
+    background: #5551FF;
 }
 
 .form {

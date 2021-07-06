@@ -247,8 +247,12 @@ blockquote span::before {
     display: inline-block;
     width: 15px;
     height: 15px;
-    background: black;
+    background: rgba(66, 66, 66, 0.2);
     border-radius: 50%;
+}
+
+.slider-bullet:first-of-type {
+    background: #424242;
 }
 
 .link-variant {

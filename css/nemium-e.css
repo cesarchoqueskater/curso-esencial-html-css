@@ -234,8 +234,12 @@ blockquote span::before {
     display: inline-block;
     inline-size: 15px;
     block-size: 15px;
-    background: white;
+    background: rgba(66, 66, 66, 0.2);
     border-radius: 50%;
+}
+
+.slider-bullet:first-of-type {
+    background: #FFFFFE;
 }
 
 .form input {
@@ -264,6 +268,7 @@ blockquote span::before {
 }
 
 footer {
+    margin-block-start: 80px;
     background: var(--pink);
 }
 
@@ -302,7 +307,7 @@ footer {
     }
     .header-content {
         position: relative;
-        inset-block-start: 65px;
+        /* inset-block-start: 65px; */
         padding-inline: 0;
     }
     header {
