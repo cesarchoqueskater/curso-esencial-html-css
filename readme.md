@@ -20,4 +20,4 @@ Has click en el enlace para ver el  **[resultado](https://cesarchoqueskater.gith
 [<img src="screenshots/screen_web.png" width="95%"/>](screenshots/screen_web.png)
 
 
-[<img src="screenshots/screen_mobile.png" width="45%"/>](screenshots/screen_mobile.png)
+[<img src="screenshots/screen_mobile.jpeg" width="45%"/>](screenshots/screen_mobile.jpeg)
